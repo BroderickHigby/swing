@@ -1,8 +1,6 @@
-# swing
+# Swing
 
-# Project Title
-
-One Paragraph of project description goes here
+Golfers need an inexpensive, data-driven method to improve their swing.
 
 ## Getting Started
 
