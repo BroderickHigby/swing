@@ -1,476 +1,488 @@
-/* Homepage 1.2 */
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+#homepage {
+	/* Homepage 1.2 */
 
-position: relative;
-width: 375px;
-height: 667px;
+	position: relative;
+	width: 375px;
+	height: 667px;
 
-background: rgba(0, 0, 0, 0.48);
+	background: rgba(0, 0, 0, 0.48);
 
 
-/* Screen Shot 2019-02-04 at 12.38 */
+	/* Screen Shot 2019-02-04 at 12.38 */
 
-position: absolute;
-width: 391px;
-height: 513px;
-left: -10px;
-top: 76px;
+	position: absolute;
+	width: 391px;
+	height: 513px;
+	left: -10px;
+	top: 76px;
 
-background: url(Screen Shot 2019-02-04 at 12.38.png);
+	background: url(Screen Shot 2019-02-04 at 12.38.png);
 
 
-/* Hamburger Menu */
+	/* Hamburger Menu */
 
-position: absolute;
-width: 375px;
-height: 63px;
-left: -1px;
-top: -2px;
+	position: absolute;
+	width: 375px;
+	height: 63px;
+	left: -1px;
+	top: -2px;
 
-background: #FFFFFF;
+	background: #FFFFFF;
 
 
-/* Rectangle 2 */
+	/* Rectangle 2 */
 
-position: absolute;
-width: 375px;
-height: 63px;
-left: -1px;
-top: -2px;
+	position: absolute;
+	width: 375px;
+	height: 63px;
+	left: -1px;
+	top: -2px;
 
-background: rgba(24, 23, 23, 0.48);
-border-radius: 0.2px;
+	background: rgba(24, 23, 23, 0.48);
+	border-radius: 0.2px;
 
 
-/* SwingGo */
+	/* SwingGo */
 
-position: absolute;
-width: 195px;
-height: 24px;
-left: 89px;
-top: 8px;
+	position: absolute;
+	width: 195px;
+	height: 24px;
+	left: 89px;
+	top: 8px;
 
-font-family: Satisfy;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 28px;
-text-align: center;
+	font-family: Satisfy;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 28px;
+	text-align: center;
 
-color: #FFFFFF;
+	color: #FFFFFF;
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 0.2px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0.2px;
 
 
-/* Corners */
+	/* Corners */
 
-position: absolute;
-width: 346px;
-height: 496px;
-left: 15px;
-top: 85px;
+	position: absolute;
+	width: 346px;
+	height: 496px;
+	left: 15px;
+	top: 85px;
 
 
 
-/* Rectangle 2 */
+	/* Rectangle 2 */
 
-position: absolute;
-width: 30px;
-height: 10px;
-left: 25px;
-top: 571px;
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	left: 25px;
+	top: 571px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 10px;
-height: 30px;
-left: 15px;
-top: 551px;
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	left: 15px;
+	top: 551px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle 2.2 */
+	/* Rectangle 2.2 */
 
-position: absolute;
-width: 30px;
-height: 10px;
-left: 321px;
-top: 85px;
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	left: 321px;
+	top: 85px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle 2.3 */
+	/* Rectangle 2.3 */
 
-position: absolute;
-width: 30px;
-height: 10px;
-left: 321px;
-top: 571px;
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	left: 321px;
+	top: 571px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle 2.1 */
+	/* Rectangle 2.1 */
 
-position: absolute;
-width: 30px;
-height: 10px;
-left: 25px;
-top: 85px;
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	left: 25px;
+	top: 85px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 10px;
-height: 30px;
-left: 15px;
-top: 85px;
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	left: 15px;
+	top: 85px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 10px;
-height: 30px;
-left: 351px;
-top: 85px;
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	left: 351px;
+	top: 85px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 10px;
-height: 30px;
-left: 351px;
-top: 551px;
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	left: 351px;
+	top: 551px;
 
-background: rgba(228, 45, 20, 0.9);
+	background: rgba(228, 45, 20, 0.9);
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 19px;
-height: 1.5px;
-left: 124px;
-top: 29px;
+	position: absolute;
+	width: 19px;
+	height: 1.5px;
+	left: 124px;
+	top: 29px;
 
-background: #C4C4C4;
+	background: #C4C4C4;
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 10px;
-height: 1.5px;
-left: 124px;
-top: 29px;
+	position: absolute;
+	width: 10px;
+	height: 1.5px;
+	left: 124px;
+	top: 29px;
 
-background: #4F4F4F;
-border: 1px solid #4F4F4F;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 0.2px;
+	background: #4F4F4F;
+	border: 1px solid #4F4F4F;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0.2px;
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 13px;
-height: 1.5px;
-left: 235px;
-top: 29px;
+	position: absolute;
+	width: 13px;
+	height: 1.5px;
+	left: 235px;
+	top: 29px;
 
-background: #C4C4C4;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background: #C4C4C4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
-/* Rectangle */
+	/* Rectangle */
 
-position: absolute;
-width: 5px;
-height: 2.5px;
-left: 248px;
-top: 31px;
+	position: absolute;
+	width: 5px;
+	height: 2.5px;
+	left: 248px;
+	top: 31px;
 
-background: rgba(24, 23, 23, 0.48);
-transform: matrix(1, 0, 0, -1, 0, 0);
+	background: rgba(24, 23, 23, 0.48);
+	transform: matrix(1, 0, 0, -1, 0, 0);
 
 
-/* Ellipse */
+	/* Ellipse */
 
-position: absolute;
-width: 10.21px;
-height: 10px;
-left: 251.92px;
-top: 31px;
+	position: absolute;
+	width: 10.21px;
+	height: 10px;
+	left: 251.92px;
+	top: 31px;
 
-background: #4F4F4F;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-transform: matrix(1, 0, 0, -1, 0, 0);
+	background: #4F4F4F;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transform: matrix(1, 0, 0, -1, 0, 0);
 
 
-/* user */
+	/* user */
 
-position: absolute;
-width: 44px;
-height: 44px;
-left: 20px;
-top: 8px;
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 20px;
+	top: 8px;
 
-background: url(user.png);
-border-radius: 10px;
+	background: url(user.png);
+	border-radius: 10px;
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 111.88px;
-height: 0px;
-left: 198px;
-top: 219px;
+	position: absolute;
+	width: 111.88px;
+	height: 0px;
+	left: 198px;
+	top: 219px;
 
-border: 1px solid #E91B1B;
-transform: rotate(82.81deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(82.81deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 102.22px;
-height: 0px;
-left: 212px;
-top: 330px;
+	position: absolute;
+	width: 102.22px;
+	height: 0px;
+	left: 212px;
+	top: 330px;
 
-border: 1px solid #E91B1B;
-transform: rotate(120.58deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(120.58deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 47.71px;
-height: 5.41px;
-left: 199.11px;
-top: 253.23px;
+	position: absolute;
+	width: 47.71px;
+	height: 5.41px;
+	left: 199.11px;
+	top: 253.23px;
 
-border: 1px solid #E91B1B;
-transform: rotate(-165.14deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(-165.14deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 36.83px;
-height: 14.03px;
-left: 155.6px;
-top: 227.44px;
+	position: absolute;
+	width: 36.83px;
+	height: 14.03px;
+	left: 155.6px;
+	top: 227.44px;
 
-border: 1px solid #E91B1B;
-transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
+	border: 1px solid #E91B1B;
+	transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 24.26px;
-height: 14.26px;
-left: 172.66px;
-top: 254.22px;
+	position: absolute;
+	width: 24.26px;
+	height: 14.26px;
+	left: 172.66px;
+	top: 254.22px;
 
-border: 1px solid #E91B1B;
-transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
+	border: 1px solid #E91B1B;
+	transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 1.14px;
-height: 5.3px;
-left: 172.11px;
-top: 268.29px;
+	position: absolute;
+	width: 1.14px;
+	height: 5.3px;
+	left: 172.11px;
+	top: 268.29px;
 
-border: 1px solid #E91B1B;
-transform: rotate(-165.14deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(-165.14deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 1.14px;
-height: 8.14px;
-left: 179.11px;
-top: 235.41px;
+	position: absolute;
+	width: 1.14px;
+	height: 8.14px;
+	left: 179.11px;
+	top: 235.41px;
 
-border: 1px solid #E91B1B;
-transform: rotate(-165.14deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(-165.14deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 117.15px;
-height: 0px;
-left: 160px;
-top: 418px;
+	position: absolute;
+	width: 117.15px;
+	height: 0px;
+	left: 160px;
+	top: 418px;
 
-border: 1px solid #E91B1B;
-transform: rotate(103.32deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(103.32deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 108.5px;
-height: 0px;
-left: 250px;
-top: 436px;
+	position: absolute;
+	width: 108.5px;
+	height: 0px;
+	left: 250px;
+	top: 436px;
 
-border: 1px solid #E91B1B;
-transform: rotate(70.06deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(70.06deg);
 
 
-/* Line */
+	/* Line */
 
-position: absolute;
-width: 109.05px;
-height: 28.08px;
-left: 212px;
-top: 330px;
+	position: absolute;
+	width: 109.05px;
+	height: 28.08px;
+	left: 212px;
+	top: 330px;
 
-border: 1px solid #E91B1B;
-transform: rotate(55.84deg);
+	border: 1px solid #E91B1B;
+	transform: rotate(55.84deg);
 
 
-/* Ellipse 2 */
+	/* Ellipse 2 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 195px;
-top: 215px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 195px;
+	top: 215px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.4 */
+	/* Ellipse 2.4 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 199px;
-top: 245px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 199px;
+	top: 245px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.5 */
+	/* Ellipse 2.5 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 150px;
-top: 238px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 150px;
+	top: 238px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.7 */
+	/* Ellipse 2.7 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 178px;
-top: 224px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 178px;
+	top: 224px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.6 */
+	/* Ellipse 2.6 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 166px;
-top: 265px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 166px;
+	top: 265px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.1 */
+	/* Ellipse 2.1 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 209px;
-top: 327px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 209px;
+	top: 327px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.3 */
+	/* Ellipse 2.3 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 247px;
-top: 433px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 247px;
+	top: 433px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.8 */
+	/* Ellipse 2.8 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 284px;
-top: 535px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 284px;
+	top: 535px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.9 */
+	/* Ellipse 2.9 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 130px;
-top: 532px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 130px;
+	top: 532px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* Ellipse 2.2 */
+	/* Ellipse 2.2 */
 
-position: absolute;
-width: 6px;
-height: 6px;
-left: 157px;
-top: 415px;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 157px;
+	top: 415px;
 
-background: #E91B1B;
+	background: #E91B1B;
 
 
-/* rotate */
+	/* rotate */
 
-position: absolute;
-width: 52px;
-height: 50px;
-left: 310px;
-top: 605px;
+	position: absolute;
+	width: 52px;
+	height: 50px;
+	left: 310px;
+	top: 605px;
 
-background: url(rotate.png);
+	background: url(rotate.png);
+}

@@ -15,21 +15,8 @@
 
 (function() {
   'use strict';
-  var constraints = { video: { facingMode: "user" }, audio: false };
   var app = {
-    isLoading: true,
-    visibleCards: {},
-    selectedCities: [],
-    spinner: document.querySelector('.loader'),
-    cardTemplate: document.querySelector('.cardTemplate'),
-    container: document.querySelector('.main'),
-    addDialog: document.querySelector('.dialog-container'),
-    daysOfWeek: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   };
-  const cameraView = document.querySelector("#camera--view"),
-      cameraOutput = document.querySelector("#camera--output"),
-      cameraSensor = document.querySelector("#camera--sensor"),
-      cameraTrigger = document.querySelector("#camera--trigger")
 
 
   /*****************************************************************************
@@ -37,28 +24,7 @@
    * Event listeners for UI elements
    *
    ****************************************************************************/
-// Access the device camera and stream to cameraView
-function cameraStart() {
-    navigator.mediaDevices
-        .getUserMedia(constraints)
-        .then(function(stream) {
-        track = stream.getTracks()[0];
-        cameraView.srcObject = stream;
-    })
-    .catch(function(error) {
-        console.error("Oops. Something is broken.", error);
-    });
-}
-// Take a picture when cameraTrigger is tapped
-cameraTrigger.onclick = function() {
-    cameraSensor.width = cameraView.videoWidth;
-    cameraSensor.height = cameraView.videoHeight;
-    cameraSensor.getContext("2d").drawImage(cameraView, 0, 0);
-    cameraOutput.src = cameraSensor.toDataURL("image/webp");
-    cameraOutput.classList.add("taken");
-};
-// Start the video stream when the window loads
-window.addEventListener("load", cameraStart, false);
+
 
 
   /*****************************************************************************
@@ -67,12 +33,7 @@ window.addEventListener("load", cameraStart, false);
    *
    ****************************************************************************/
 
-
-   
-
-  
   // TODO uncomment line below to test app with fake data
-  app.cameraStart(initialWeatherForecast);
 
   // TODO add startup code here
 
