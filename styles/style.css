@@ -5,3 +5,26 @@ html, body{
   width: 100%;
 }
 
+
+#center > span {
+    background-color: aqua;
+    padding: 2px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.box {
+    height: 4em;
+}
+
+.box1 { 
+}
+.box2 { 
+  width: 200px;
+  text-align: center;
+}
+.box3 { width: 50px; }
