@@ -2,20 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="canonical" href="https://weather-pwa-sample.firebaseapp.com/final/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Swing</title>
-  <link rel="stylesheet" type="text/css" href="styles/inline.css">
-
-  <!-- TODO add manifest here -->
-    <!-- Link to your main style sheet-->
-  <!--<link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
   <header class="header">
-    <h1 class="header__title">Weather PWA</h1>
+    <h1 class="header__title">SwingGo</h1>
     <button id="butRefresh" class="headerButton" aria-label="Refresh"></button>
     <button id="butAdd" class="headerButton" aria-label="Add"></button>
   </header>
@@ -25,31 +19,7 @@
       <div class="city-key" hidden></div>
       <div class="card-last-updated" hidden></div>
     </div>
-        <!-- Camera -->
-    <main id="camera">
-        <!-- Camera sensor -->
-        <canvas id="camera--sensor"></canvas>
-        <!-- Camera view -->
-        <video id="camera--view" autoplay playsinline></video>
-        <!-- Camera output -->
-        <img src="//:0" alt="" id="camera--output">
-        <!-- Camera trigger -->
-        <button id="camera--trigger">Take a picture</button>
-    </main>
   </main>
-
-  <div class="dialog-container">
-    <div class="dialog">
-      <div class="dialog-buttons">
-      </div>
-    </div>
-  </div>
-
-  <div class="loader">
-    <svg viewBox="0 0 32 32" width="32" height="32">
-      <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
-    </svg>
-  </div>
 
   <!-- Uncomment the line below when ready to test with fake data -->
   <script src="scripts/app.js" async></script>
