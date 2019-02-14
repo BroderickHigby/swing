@@ -1,5 +1,5 @@
-# Swing
-
+Project Description
+=======
 Golfers need an inexpensive, data-driven method to improve their swing.
 
 ## Getting Started

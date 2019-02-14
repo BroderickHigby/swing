@@ -1,0 +1,83 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#appuse{
+  margin-bottom: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.main-section {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20%;
+  color: white;
+}
+
+.modal-content {
+  background-color: #7F7171;
+  opacity: .95;
+  padding: 5%;
+  box-shadow: 0px 0px 3px black;
+}
+
+
+.form-group input{
+  height: 30px;
+  font-size: 1.1em;
+  padding-left: 13%;
+}
+
+.form-group::before{
+  font-family: 'Font Awesome\ 5 Free';
+  position: absolute;
+  font-size: 1.2em;
+  color: #7F7171;
+  left: 10%;
+  padding-top: 1%;
+}
+
+#email::before{
+  content: "\f007";
+}
+
+#pw::before{
+  content: "\f023";
+}
+
+.btn{
+  width:40%;
+  margin-bottom: 5%;
+  background-color: #40ea7e;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border-bottom: 3px solid #3bce71;
+}
+
+.btn:hover, .btn:focus{
+  background-color: #58b67a;
+  border-bottom: 3px solid #3bce71;
+}
+
+.svg-inline--fa{
+  font-size: 100%;
+  margin-right: 5%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#forgot{
+  margin-bottom: 1%;
+}
+
+#new{
+  padding: 0;
+  margin-bottom: -5%;
+  font-size: 1.0em;
+}
